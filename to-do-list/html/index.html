@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="../css/to-do.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="to-do-container">
+        <h1><i class="fa-solid fa-list-check"></i>&nbsp;To Do List</h1>
+        <label for="task">Task Name</label>
+        <div class="input-container">
+            <input type="text" name="addTask" id="task">
+            <span id="add" onclick="newListElement()">Add</span>
+        </div>
+        <div class="task-container">
+            <ul id="myTask">
+    
+            </ul>
+        </div>
+    </div>
+    <script src="../js/to-do.js"></script>
+</body>
+</html>
